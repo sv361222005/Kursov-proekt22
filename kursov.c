@@ -12,8 +12,7 @@ int main() {
     printf("Enter the elements of array A[8,10]:\n");
     for (int i = 0; i < 8; i++) {
         for (int j = 0; j < 10; j++) {
-             A[i][j]=i+j;
-            /*
+           
             printf("A[%d][%d]=",i,j);
             scanf("%d", &A[i][j]);
             while (A[i][j] <= 0 || A[i][j] >= 999)
@@ -23,14 +22,12 @@ int main() {
         printf("A[%d][%d]=",i,j);
         scanf("%d", &A[i][j]);
         printf("\n");
-        }*/
         }
     }
     printf("Enter the elements of array B[10,15]:\n");
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 15; j++) {
-             B[i][j]=i+j;
-            /*
+         
             printf("B[%d][%d]=",i,j);
             scanf("%d", &B[i][j]);
         while (B[i][j] <= 0 || B[i][j] >= 999) 
@@ -41,14 +38,12 @@ int main() {
         scanf("%d", &B[i][j]);
         printf("\n");
         }
-        */
         }
     }
     printf("Enter the elements of array C[12,20]:\n");
     for (int i = 0; i < 12; i++) {
         for (int j = 0; j < 20; j++) {
-            C[i][j]=i+j;
-            /*
+          
             printf("C[%d][%d]=",i,j);
             scanf("%d", &C[i][j]);
             while (C[i][j] <= 0 || C[i][j] >= 999) 
@@ -58,7 +53,7 @@ int main() {
         printf("C[%d][%d]=",i,j);
         scanf("%d", &C[i][j]);
         printf("\n");
-        } */
+        } 
         }
     }
     
